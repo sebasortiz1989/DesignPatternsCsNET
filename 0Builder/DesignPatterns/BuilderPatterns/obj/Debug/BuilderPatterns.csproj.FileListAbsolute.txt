@@ -1,0 +1,7 @@
+D:\Repos\Study\Udemy\5DesignPatternsCsNET\0Builder\DesignPatterns\BuilderPatterns\obj\Debug\BuilderPatterns.csproj.AssemblyReference.cache
+D:\Repos\Study\Udemy\5DesignPatternsCsNET\0Builder\DesignPatterns\BuilderPatterns\obj\Debug\BuilderPatterns.csproj.SuggestedBindingRedirects.cache
+D:\Repos\Study\Udemy\5DesignPatternsCsNET\0Builder\DesignPatterns\BuilderPatterns\obj\Debug\BuilderPatterns.csproj.CoreCompileInputs.cache
+D:\Repos\Study\Udemy\5DesignPatternsCsNET\0Builder\DesignPatterns\BuilderPatterns\bin\Debug\BuilderPatterns.exe
+D:\Repos\Study\Udemy\5DesignPatternsCsNET\0Builder\DesignPatterns\BuilderPatterns\bin\Debug\BuilderPatterns.pdb
+D:\Repos\Study\Udemy\5DesignPatternsCsNET\0Builder\DesignPatterns\BuilderPatterns\obj\Debug\BuilderPatterns.exe
+D:\Repos\Study\Udemy\5DesignPatternsCsNET\0Builder\DesignPatterns\BuilderPatterns\obj\Debug\BuilderPatterns.pdb

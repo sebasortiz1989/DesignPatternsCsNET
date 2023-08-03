@@ -1,8 +1,8 @@
 ﻿namespace BuilderPatterns
 {
-    internal class Program
+    public abstract class Program
     {
-        public static void Main(string[] args)
+        public void Main(string[] args)
         {
         }
     }
