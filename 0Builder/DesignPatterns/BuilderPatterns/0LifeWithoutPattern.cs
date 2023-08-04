@@ -1,11 +1,12 @@
-﻿using System.Text;
+﻿using System.Management.Instrumentation;
+using System.Text;
 using static System.Console;
 
 namespace BuilderPatterns
 {
-    public class LifeWithoutPattern : Program
+    public class LifeWithoutBuilder
     {
-        public new static void Main(string[] args)
+        protected static void LifeWithoutBuilderMain(string[] args)
         {
             var hello = "Hello";
             var sb = new StringBuilder();
@@ -23,6 +24,7 @@ namespace BuilderPatterns
             }
 
             sb.Append("<ul>");
+            sb.AppendLine("////////////////////");
             WriteLine(sb);
         }
     }
