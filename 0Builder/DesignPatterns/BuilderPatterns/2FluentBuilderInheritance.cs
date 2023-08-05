@@ -51,7 +51,7 @@ namespace BuilderPatterns
             }
         }
         
-        public static void Main(string[] args)
+        public static void FluentBuilderInheritanceMain(string[] args)
         {
             var me = Person.New.Called("Sebas").WorksAsA("Developer").build();
             Console.WriteLine(me);
