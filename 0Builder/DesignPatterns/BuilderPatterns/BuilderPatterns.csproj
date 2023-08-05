@@ -45,6 +45,7 @@
     <ItemGroup>
         <Compile Include="0LifeWithoutPattern.cs" />
         <Compile Include="1Builder.cs" />
+        <Compile Include="2FluentBuilderInheritance.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

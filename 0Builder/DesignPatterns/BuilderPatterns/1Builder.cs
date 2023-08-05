@@ -79,7 +79,7 @@ namespace BuilderPatterns
             }
         }
 
-        public static void Main(string[] args)
+        public static void BuilderMain(string[] args)
         {
             LifeWithoutBuilderMain(args);
             var builder = new HtmlBuilder("ul");
