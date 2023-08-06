@@ -70,7 +70,7 @@ namespace BuilderPatterns
             }
         }
 
-        public static void Main(string[] args)
+        public void Main(string[] args)
         {
             var car = CarBuilder.Create() // ISpecifyCarType 
                 .OfType(CarType.Crossover) // ISpecifyWheelSize
