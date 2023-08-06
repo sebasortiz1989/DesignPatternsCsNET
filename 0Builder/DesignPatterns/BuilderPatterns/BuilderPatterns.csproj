@@ -49,6 +49,7 @@
         <Compile Include="2FluentBuilderInheritance.cs" />
         <Compile Include="3StepWiseBuilder.cs" />
         <Compile Include="4FunctionalBuilder.cs" />
+        <Compile Include="5FacetedBuilder.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

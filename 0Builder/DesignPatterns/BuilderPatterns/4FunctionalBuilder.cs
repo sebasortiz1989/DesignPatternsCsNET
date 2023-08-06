@@ -16,7 +16,7 @@ namespace BuilderPatterns
             public PersonBuilder Called(string name) => Do(p => p.Name = name);
         }
 
-        public static void Main(string[] args)
+        public void Main(string[] args)
         {
             var person = new PersonBuilder().Called("Sarah").WorksAs("Engineer").Build();
         }

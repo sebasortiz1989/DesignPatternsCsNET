@@ -1,10 +1,8 @@
-﻿using static System.Console;
-
-namespace BuilderPatterns
+﻿namespace BuilderPatterns
 {
     public abstract class Program
     {
-        public virtual void Main(string[] args)
+        public void Main(string[] args)
         {
         }
     }
