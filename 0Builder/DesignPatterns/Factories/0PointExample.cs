@@ -14,27 +14,32 @@ namespace Factories
         {
             private double x, y;
 
-            public Point(double a, double b, CoordinateSystem system = CoordinateSystem.Cartesian)
+            private Point(double x, double y)
             {
-                switch (system)
-                {
-                    case CoordinateSystem.Cartesian:
-                        x = a;
-                        y = b;
-                        break;
-                    case CoordinateSystem.Polar:
-                        x = a * Math.Cos(b);
-                        y = a * Math.Sin(b);
-                        break;
-                    default:
-                        throw new ArgumentOutOfRangeException(nameof(system), system, null);
-                }
+                this.x = x;
+                this.y = y;
+            }
+
+            public static Point NewPointCartesian(double x, double y)
+            {
+                return new Point(x, y);
+            }
+
+            public static Point NewPointPolar(double rho, double theta)
+            {
+                return new Point(rho * Math.Cos(theta), rho * Math.Sin(theta));
+            }
+
+            public override string ToString()
+            {
+                return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
             }
         }
 
         public static void Main(string[] args)
         {
-            
+            var point = Point.NewPointPolar(1, Math.PI / 2);
+            Console.WriteLine(point);
         }
     }
 }
