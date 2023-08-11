@@ -36,7 +36,7 @@ namespace Factories
             }
         }
 
-        public static void Main(string[] args)
+        public void Main(string[] args)
         {
             var point = Point.NewPointPolar(1, Math.PI / 2);
             Console.WriteLine(point);
