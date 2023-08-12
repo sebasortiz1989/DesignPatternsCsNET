@@ -24,7 +24,7 @@ namespace Factories
             }
         }
 
-        public static async Task Main(string[] args)
+        public async Task Main(string[] args)
         {
             // var foo = new Foo();
             // await foo.InitAsync();
