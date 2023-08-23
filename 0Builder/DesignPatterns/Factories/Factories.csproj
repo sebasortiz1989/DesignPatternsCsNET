@@ -43,6 +43,7 @@
         <Compile Include="0PointExample.cs" />
         <Compile Include="1AsyncFactoryMethod.cs" />
         <Compile Include="2ObjectTrackingNBulkReplacement.cs" />
+        <Compile Include="3InnerFactory.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

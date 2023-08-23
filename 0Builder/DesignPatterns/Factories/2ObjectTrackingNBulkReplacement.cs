@@ -92,7 +92,7 @@ namespace Factories
             }
         }
         
-        public static void Main(string[] args)
+        public void Main(string[] args)
         {
             var factory = new TrackingThemeFactory();
             var theme1 = factory.CreateTheme(false);
